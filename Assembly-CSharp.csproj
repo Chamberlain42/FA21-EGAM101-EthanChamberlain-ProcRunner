@@ -59,6 +59,7 @@
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\ConditionRepeat.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\UserInterface\UIScript.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\ConsumeResourceAction.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\MovementWithScripts.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\UserInterface\UIItemScript.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\BaseClasses\ConditionBase.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\ConditionKeyPress.cs" />
@@ -97,8 +98,8 @@
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\Rotate.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Attributes\HealthSystemAttribute.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\PlayerMovement.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\MovementWithScripts.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\Wind.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\ScreenManger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

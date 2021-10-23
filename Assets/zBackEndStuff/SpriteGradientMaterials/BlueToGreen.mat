@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BlueToGreen
+  m_Shader: {fileID: -6465566751694194690, guid: 244629cbe06662b47a90319376a0af45,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_ae624b63305b4adcb75036d88a9cf439:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - BlendHeight: 0.92
+    - _BlendHeight: 0.5
+    m_Colors:
+    - Color_cd6bb54330d7489b89866f4ee21dfbc9: {r: 0.6415094, g: 0.5917784, b: 0, a: 1}
+    - Color_cdff99b0283b4d9a9f7ff36356599c12: {r: 0.61965096, g: 0.31626022, b: 0.9716981,
+        a: 1}
+    - _ColorA: {r: 0, g: 0.08670282, b: 1, a: 1}
+    - _ColorB: {r: 0, g: 0.8113208, b: 0.15499727, a: 1}
+  m_BuildTextureStacks: []
