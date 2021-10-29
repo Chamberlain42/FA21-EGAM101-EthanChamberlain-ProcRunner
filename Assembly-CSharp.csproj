@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{73EDBDF2-9955-FA5B-7CB1-EC102008D3F8}</ProjectGuid>
+    <ProjectGuid>{632B5D26-84FC-BEDF-D08C-421C1C6F8C72}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -83,6 +83,7 @@
     <Compile Include="Assets\PlaygroundAssets\Scripts\Gameplay\ObjectCreatorArea.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\OnOffAction.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\Push.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\IfThenCode.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\LoadLevelAction.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\Wander.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\PlatformSetup.cs" />
@@ -99,7 +100,12 @@
     <Compile Include="Assets\PlaygroundAssets\Scripts\Attributes\HealthSystemAttribute.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\PlayerMovement.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\Wind.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\ScreenManger.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\UsefulThing.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\SometimesObsticles.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\SometimeObsticles.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\PercentSpawn.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\DoNotTouch.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\RandomSpawn.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
