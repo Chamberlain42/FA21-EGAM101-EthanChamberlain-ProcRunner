@@ -11,8 +11,8 @@ public class RandomSpawn : MonoBehaviour
         float randomNumber;
         Random.Range(-10, 10);
         randomNumber = Random.value;
-        GetComponent<Transform>().localEulerAngles = new Vector3(randomNumber, randomNumber, 0);
-        GetComponent<Transform>().localPosition = new Vector3(randomNumber, randomNumber, 0);
+        Sprite1.transform.eulerAngles = new Vector3(0, 0, Random.Range(0, 360));
+        Sprite1.transform.position = new Vector2(Random.Range(-5, 5), Random.Range(-5, 5));
         Instantiate(Sprite1);
 
         }

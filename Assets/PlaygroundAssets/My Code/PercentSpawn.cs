@@ -23,8 +23,7 @@ public class PercentSpawn : MonoBehaviour
 
 
         float randomNumber;
-        randomNumber = Random.value;
-        Random.Range(1, 10);
+        randomNumber = Random.Range(1, 10);
         if (randomNumber > Spawnrate) 
         {
             Instantiate(Sprite1);
