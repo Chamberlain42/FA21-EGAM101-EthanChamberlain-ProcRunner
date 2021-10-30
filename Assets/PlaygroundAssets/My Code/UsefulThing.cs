@@ -8,9 +8,9 @@ public class UsefulThing : MonoBehaviour
     public Sprite ChildTwoSprite;
     public Sprite ChildThreeSprite;
     public Sprite ParentSprite;
-    public Vector2 DesiredPosition;
-    public Color DesiredColor;
-    public int OrderLayer;
+    public Vector2 DesiredPosition, DesiredPositionCOne, DesiredPositionCTwo, DesiredPositionCThree;
+    public Color DesiredColor, DesiredColorCOne, DesiredColorCTwo, DesiredColorCThree;
+    public int OrderLayer, OrderLayerCOne, OrderLayerCTwo, OrderLayerCThree;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,18 +29,18 @@ public class UsefulThing : MonoBehaviour
         ChildOne.name = "ChildOne";
         ChildOne.AddComponent<SpriteRenderer>();
         ChildOne.GetComponent<SpriteRenderer>();
-        ChildOne.GetComponent<SpriteRenderer>().color = DesiredColor;
-        ChildOne.GetComponent<SpriteRenderer>().sortingOrder = OrderLayer;
+        ChildOne.GetComponent<SpriteRenderer>().color = DesiredColorCOne;
+        ChildOne.GetComponent<SpriteRenderer>().sortingOrder = OrderLayerCOne;
         ChildOne.GetComponent<SpriteRenderer>().sprite = ChildOneSprite;
-        ChildOne.transform.position = (0, 1, 0);
+        ChildOne.transform.localPosition
 
         GameObject ChildTwo;
         ChildTwo = new GameObject();
         ChildTwo.name = "ChildTwo";
         ChildOne.AddComponent<SpriteRenderer>();
         ChildOne.GetComponent<SpriteRenderer>();
-        ChildOne.GetComponent<SpriteRenderer>().color = DesiredColor;
-        ChildOne.GetComponent<SpriteRenderer>().sortingOrder = OrderLayer;
+        ChildOne.GetComponent<SpriteRenderer>().color = DesiredColorCTwo;
+        ChildOne.GetComponent<SpriteRenderer>().sortingOrder = OrderLayerCTwo;
         ChildOne.GetComponent<SpriteRenderer>().sprite = ChildTwoSprite;
         ChildOne.transform.position = (-1, 0, 0);
 
@@ -49,8 +49,8 @@ public class UsefulThing : MonoBehaviour
         ChildThree.name = "ChildThree";
         ChildOne.AddComponent<SpriteRenderer>();
         ChildOne.GetComponent<SpriteRenderer>();
-        ChildOne.GetComponent<SpriteRenderer>().color = DesiredColor;
-        ChildOne.GetComponent<SpriteRenderer>().sortingOrder = OrderLayer;
+        ChildOne.GetComponent<SpriteRenderer>().color = DesiredColorCThree;
+        ChildOne.GetComponent<SpriteRenderer>().sortingOrder = OrderLayerCThree;
         ChildOne.GetComponent<SpriteRenderer>().sprite = ChildThreeSprite;
         ChildOne.transform.position = (-1, 0, 0);
 

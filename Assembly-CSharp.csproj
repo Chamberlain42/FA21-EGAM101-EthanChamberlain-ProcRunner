@@ -83,7 +83,6 @@
     <Compile Include="Assets\PlaygroundAssets\Scripts\Gameplay\ObjectCreatorArea.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\OnOffAction.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\Push.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\IfThenCode.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\LoadLevelAction.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\Wander.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\PlatformSetup.cs" />
@@ -106,6 +105,9 @@
     <Compile Include="Assets\PlaygroundAssets\My Code\PercentSpawn.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\DoNotTouch.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\RandomSpawn.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\NewScreen.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\NewScreenTrigger.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\MatchAvatar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

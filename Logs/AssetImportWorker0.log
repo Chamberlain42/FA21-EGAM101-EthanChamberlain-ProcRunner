@@ -3760,3 +3760,59 @@ Received Import Request.
 Start importing Assets/PlaygroundAssets/Prefabs/Characters/CindyRella.prefab using Guid(96055049e4789fa488570dca8967b88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b945a22bbd1c106aeff3105106882c') in 0.182379 seconds 
   Import took 0.189626 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 15722.473488 seconds.
+  path: Assets/PlaygroundAssets/My Code/NewBehaviourScript.cs
+  artifactKey: Guid(a5e37d970f1271b40b21bdfb70a35483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaygroundAssets/My Code/NewBehaviourScript.cs using Guid(a5e37d970f1271b40b21bdfb70a35483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8374b9d124dea5ade7317ce678cc89') in 0.038921 seconds 
+  Import took 0.266804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.651832 seconds.
+  path: Assets/PlaygroundAssets/My Code/NewScreen.cs
+  artifactKey: Guid(a5e37d970f1271b40b21bdfb70a35483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaygroundAssets/My Code/NewScreen.cs using Guid(a5e37d970f1271b40b21bdfb70a35483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b615e80ce036f81d06daefe0b6cdd7e8') in 0.028615 seconds 
+  Import took 0.036544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000913 seconds.
+  path: Assets/PlaygroundAssets/My Code/NewScreen.cs
+  artifactKey: Guid(a5e37d970f1271b40b21bdfb70a35483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaygroundAssets/My Code/NewScreen.cs using Guid(a5e37d970f1271b40b21bdfb70a35483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b615e80ce036f81d06daefe0b6cdd7e8') in 0.022037 seconds 
+  Import took 0.031114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1389.829107 seconds.
+  path: Assets/PlaygroundAssets/My Code/NewScreenTrigger.cs
+  artifactKey: Guid(5b4f4b42d2c517d4cb5a273823971c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaygroundAssets/My Code/NewScreenTrigger.cs using Guid(5b4f4b42d2c517d4cb5a273823971c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c514b63d0fca6d9fe5c5a584bdc8958') in 0.012386 seconds 
+  Import took 0.019753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 266.685990 seconds.
+  path: Assets/PlaygroundAssets/My Code/NewScreenTrigger.cs
+  artifactKey: Guid(5b4f4b42d2c517d4cb5a273823971c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaygroundAssets/My Code/NewScreenTrigger.cs using Guid(5b4f4b42d2c517d4cb5a273823971c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f1379844c7920af1685eb40278fd05') in 0.007676 seconds 
+  Import took 0.016756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1123.532080 seconds.
+  path: Assets/PlaygroundAssets/My Code/MatchAvatar.cs
+  artifactKey: Guid(13dfdb6e60be3a843ac4e9563dd49f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaygroundAssets/My Code/MatchAvatar.cs using Guid(13dfdb6e60be3a843ac4e9563dd49f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819ee0013e77a055f035881f69a4ec40') in 0.010367 seconds 
+  Import took 0.017502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.005212 seconds.
+  path: Assets/PlaygroundAssets/My Code/MatchAvatar.cs
+  artifactKey: Guid(13dfdb6e60be3a843ac4e9563dd49f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlaygroundAssets/My Code/MatchAvatar.cs using Guid(13dfdb6e60be3a843ac4e9563dd49f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d71385039096a1f2212b59bdf537dc3') in 0.047882 seconds 
+  Import took 0.076857 seconds .
+
