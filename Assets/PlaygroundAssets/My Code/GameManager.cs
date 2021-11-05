@@ -25,16 +25,16 @@ public class GameManager : MonoBehaviour
         newScreenTriggerInstance = new GameObject();
         newScreenTriggerInstance.name = "NewScreenTriggerObject";
         newScreenTriggerInstance.AddComponent<NewScreenTrigger>();
-        newScreenTriggerInstance.GetComponent<Transform>().position = new Vector3(10 * NScreenCreated, 0, 0);
+        newScreenTriggerInstance.GetComponent<Transform>().position = new Vector3(30 * NScreenCreated, 0, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (NScreenCreated > NScreenCreated)
+        if (NScreenCreated < NScreenDesired)
         {
-            GameObject newScreen =Instantiate(ScreenPrefab);
-            newScreen.transform.localPosition = new Vector3(10 * NScreenCreated, 0, 0);
+            GameObject newScreen = Instantiate(ScreenPrefab);
+            newScreen.transform.localPosition = new Vector3(30 * NScreenCreated, 0, 0);
             newScreen.name = "Screen" + NScreenCreated;
             NScreenCreated += 1;
         }

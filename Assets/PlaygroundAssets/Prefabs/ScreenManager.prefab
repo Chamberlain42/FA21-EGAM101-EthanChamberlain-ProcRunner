@@ -46,3 +46,5 @@ MonoBehaviour:
   ParentPlatform: {fileID: 1468677009990341728, guid: cb7518a55e638494596f1ea9bd75519d,
     type: 3}
   Spawnrate: 0
+  DeathCollider: {fileID: 136638291420726935, guid: 9d79baf7d8c91464299364c085fcd18b,
+    type: 3}

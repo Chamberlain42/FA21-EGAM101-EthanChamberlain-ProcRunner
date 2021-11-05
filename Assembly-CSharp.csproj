@@ -111,6 +111,8 @@
     <Compile Include="Assets\PlaygroundAssets\My Code\PrefabPlatform.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\TrackingPlayer.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\ScreenManager.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\DeathCollider.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\QuitKey.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
