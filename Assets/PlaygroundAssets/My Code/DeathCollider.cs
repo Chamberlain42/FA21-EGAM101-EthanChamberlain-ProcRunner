@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class DeathCollider : MonoBehaviour
 {
-    private GameObject Dead;
+    public Enums.Targets ObjectThatCollided = Enums.Targets.ThisObject;
+    private GameObject Player;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,13 +14,17 @@ public class DeathCollider : MonoBehaviour
 
         gameObject.AddComponent<BoxCollider2D>();
         GetComponent<BoxCollider2D>().isTrigger = true;
+
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            Dead.GetComponent<DestroyAction>();
+            Destroy(Player);
+            
+
         }
 
         }

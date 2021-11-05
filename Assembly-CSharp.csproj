@@ -113,6 +113,7 @@
     <Compile Include="Assets\PlaygroundAssets\My Code\ScreenManager.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\DeathCollider.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\QuitKey.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\Enemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
