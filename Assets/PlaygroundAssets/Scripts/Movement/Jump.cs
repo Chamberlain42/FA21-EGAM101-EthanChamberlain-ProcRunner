@@ -14,7 +14,7 @@ public class Jump : Physics2DObject
 
 	[Header("Ground setup")]
 	//if the object collides with another object tagged as this, it can jump again
-	public string groundTag = "Ground";
+	public string groundTag = "Platform";
 
 	//this determines if the script has to check for when the player touches the ground to enable him to jump again
 	//if not, the player can jump even while in the air

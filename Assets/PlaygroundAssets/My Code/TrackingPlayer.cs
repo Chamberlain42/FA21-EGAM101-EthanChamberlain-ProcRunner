@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class TrackingPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string Player;
 
     // Update is called once per frame
     void Update()
     {
-        
+        GetComponent<Transform>().position = new Vector3(GameObject.Find(Player).transform.position.x, 0, -10);
     }
 }

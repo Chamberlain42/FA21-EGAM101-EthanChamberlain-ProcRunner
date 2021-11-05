@@ -13,6 +13,7 @@ public class PrefabPlatform : MonoBehaviour
     {
         ReferencingPlatformOne = PlatformPrefab;
         ReferencingPlatformOne.name = "PlatformOne";
+        ReferencingPlatformOne.gameObject.tag = "Platform";
 
         ReferencingPlatformTwo = PlatformPrefab;
         ReferencingPlatformTwo.name = "PlatformTwo";
@@ -49,7 +50,8 @@ public class PrefabPlatform : MonoBehaviour
         Random.Range(0, 2);
         randomNumber = Random.value;
         //ReferencingPlatformOne.transform.eulerAngles = new Vector3(0, 0, Random.Range(0, 360));
-        ReferencingPlatformFour.transform.position = new Vector2(7, Random.Range(-3, 3));
+        ReferencingPlatformFour.transform.position = new Vector2(8
+            , Random.Range(-3, 3));
         Instantiate(ReferencingPlatformFour);
 
 
