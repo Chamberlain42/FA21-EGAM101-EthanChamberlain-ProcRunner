@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class NewScreen : MonoBehaviour
 {
     public int NScreenCreated;
     public int NScreenDesried;
@@ -26,8 +26,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         if (NScreenCreated > NScreenCreated)
         {
-            GameObject newScreen;
-            Instantiate(ScreenPrefab);
+            GameObject newScreen =Instantiate(ScreenPrefab);
             newScreen.transform.localPosition = new Vector3(10 * NScreenCreated, 0, 0);
             newScreen.name = "Screen" + NScreenCreated;
             NScreenCreated += 1;

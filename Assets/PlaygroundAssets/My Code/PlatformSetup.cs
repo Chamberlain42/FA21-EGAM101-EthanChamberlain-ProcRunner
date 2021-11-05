@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlatformSetup : MonoBehaviour
 {
     public Sprite SquareSprite;
-    public Vector3 DesiredPosition, DesiredScale;
+    public Vector2 DesiredScale;
     public Color DesiredColor;
     public int OrderLayer;
     // Start is called before the first frame update
@@ -19,7 +19,7 @@ public class PlatformSetup : MonoBehaviour
         //This spot???? V
         GetComponent<SpriteRenderer>().sortingOrder = OrderLayer;
 
-        GetComponent<Transform>().position = DesiredPosition;
+        //GetComponent<Transform>().position = DesiredPosition;
         GetComponent<Transform>().localScale = DesiredScale;
         
 

@@ -5,35 +5,42 @@ using UnityEngine;
 public class MovementWithScripts : MonoBehaviour
 {
     public int LayerOrder;
-    public Sprite SpriteToShow;
+    public Sprite Player;
     public Vector3 StartingPosition;
     public Color DesiredColor;
-    public float Speed =3f;
+   
  
     // Start is called before the first frame update
     void Start()
     {
         gameObject.AddComponent<SpriteRenderer>();
-       
-        GetComponent<SpriteRenderer>().sprite = SpriteToShow;
-        
+
+        GetComponent<SpriteRenderer>().sprite = Player;
+
         GetComponent<SpriteRenderer>().color = DesiredColor;
         
         GetComponent<Transform>().position = StartingPosition;
-        
+
         GetComponent<SpriteRenderer>().sortingOrder = LayerOrder;
         
+        gameObject.AddComponent<Rigidbody2D>();
+        
+        gameObject.AddComponent<BoxCollider2D>();
+
         gameObject.AddComponent<Move>();
 
         gameObject.AddComponent<Jump>();
+        
+        GetComponent<Move>();
 
-        gameObject.AddComponent<Rigidbody2D>();
-        gameObject.AddComponent<BoxCollider2D>();
-        GetComponent<Rigidbody2D>().gravityScale = 0;
-
-
+        GetComponent<Jump>();
 
         
+
+
+
+
+
 
 
 

@@ -56,7 +56,9 @@
     <Compile Include="Assets\PlaygroundAssets\Scripts\Attributes\DestroyForPointsAttribute.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\AutoRotate.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Attributes\BulletAttribute.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\SometimeObsticles.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\ConditionRepeat.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\MatchAvatar.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\UserInterface\UIScript.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\ConsumeResourceAction.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\MovementWithScripts.cs" />
@@ -65,6 +67,7 @@
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\ConditionKeyPress.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\DialogueBalloonAction.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\BaseClasses\Physics2DObject.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\PercentSpawn.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Attributes\CollectableAttribute.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Gameplay\ObjectShooter.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\UserInterface\BalloonScript.cs" />
@@ -77,8 +80,10 @@
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\Utilities\Enums.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\BaseClasses\Action.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\ConditionCollision.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\UsefulThing.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\Utilities\InventoryResources.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\UserInterface\DialogueSystem.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\DoNotTouch.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Gameplay\PickUpAndHold.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Gameplay\ObjectCreatorArea.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\OnOffAction.cs" />
@@ -89,25 +94,22 @@
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\CameraFollow.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\Move.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\ConditionArea.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\SometimesObsticles.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\CreateObjectAction.cs" />
     <Compile Include="Assets\PlaygroundAssets\_INTERNAL_\Scripts\Utilities\Utils.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Attributes\ResourceAttribute.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\RandomSpawn.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Conditions\Actions\TeleportAction.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\Jump.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\SpriteSetup.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Movement\Rotate.cs" />
     <Compile Include="Assets\PlaygroundAssets\Scripts\Attributes\HealthSystemAttribute.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\PlayerMovement.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\Wind.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\UsefulThing.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\SometimesObsticles.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\SometimeObsticles.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\PercentSpawn.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\DoNotTouch.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\RandomSpawn.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\NewScreen.cs" />
     <Compile Include="Assets\PlaygroundAssets\My Code\NewScreenTrigger.cs" />
-    <Compile Include="Assets\PlaygroundAssets\My Code\MatchAvatar.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\Wind.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\NewScreen.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\PrefabPlatform.cs" />
+    <Compile Include="Assets\PlaygroundAssets\My Code\TrackingPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

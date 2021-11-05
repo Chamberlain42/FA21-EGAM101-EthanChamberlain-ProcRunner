@@ -10,7 +10,7 @@ public class Move : Physics2DObject
 
 	[Header("Movement")]
 	[Tooltip("Speed of movement")]
-	public float speed = 5f;
+	public float speed = 3f;
 	public Enums.MovementType movementType = Enums.MovementType.AllDirections;
 
 	[Header("Orientation")]
@@ -70,6 +70,6 @@ public class Move : Physics2DObject
 	void FixedUpdate ()
 	{
 		// Apply the force to the Rigidbody2d
-		rigidbody2D.AddForce(movement * speed * 3f);
+		rigidbody2D.AddForce(movement * speed * 5f);
 	}
 }

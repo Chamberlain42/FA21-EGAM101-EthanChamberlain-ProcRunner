@@ -24,6 +24,7 @@ public class UsefulThing : MonoBehaviour
         Parent.GetComponent<SpriteRenderer>().sprite = ParentSprite;
         Parent.GetComponent<Transform>().position = DesiredPosition;
 
+
         GameObject ChildOne;
         ChildOne = new GameObject();
         ChildOne.name = "ChildOne";
@@ -32,7 +33,8 @@ public class UsefulThing : MonoBehaviour
         ChildOne.GetComponent<SpriteRenderer>().color = DesiredColorCOne;
         ChildOne.GetComponent<SpriteRenderer>().sortingOrder = OrderLayerCOne;
         ChildOne.GetComponent<SpriteRenderer>().sprite = ChildOneSprite;
-        ChildOne.transform.localPosition
+        ChildOne.GetComponent<Transform>().position = DesiredPositionCOne;
+        
 
         GameObject ChildTwo;
         ChildTwo = new GameObject();
@@ -42,7 +44,7 @@ public class UsefulThing : MonoBehaviour
         ChildOne.GetComponent<SpriteRenderer>().color = DesiredColorCTwo;
         ChildOne.GetComponent<SpriteRenderer>().sortingOrder = OrderLayerCTwo;
         ChildOne.GetComponent<SpriteRenderer>().sprite = ChildTwoSprite;
-        ChildOne.transform.position = (-1, 0, 0);
+        ChildOne.GetComponent<Transform>().position = DesiredPositionCTwo;
 
         GameObject ChildThree;
         ChildThree = new GameObject();
@@ -52,7 +54,7 @@ public class UsefulThing : MonoBehaviour
         ChildOne.GetComponent<SpriteRenderer>().color = DesiredColorCThree;
         ChildOne.GetComponent<SpriteRenderer>().sortingOrder = OrderLayerCThree;
         ChildOne.GetComponent<SpriteRenderer>().sprite = ChildThreeSprite;
-        ChildOne.transform.position = (-1, 0, 0);
+        ChildOne.GetComponent<Transform>().position = DesiredPositionCThree;
 
 
 
